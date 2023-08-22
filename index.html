@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form>
+        <div class="forms">
+        <table>
+            <p>Let us know we can improve freeCodeCamp</p>
+            <tr>
+                <th><label>Name:</label></th>
+                <td><input type="text" name="name" placeholder="Enter your name"></td>
+            </tr>
+            <br>
+            <tr>
+                <th><label>Email:</label></th>
+                <td><input type="email" name="email" placeholder="Enter your Email"></td>
+            </tr>
+            <tr>
+                <th><label>Age:</label></th>
+                <td><input type="number" name="age" placeholder="Age" min="0" max="125"></td>
+            </tr>
+            <tr>
+                <th><label>Which option best describes your current role?</label></th>
+                <td>
+                    <select>
+                        <option value="student">student</option>
+                        <option value="worker">worker</option>
+                        <option value="unemployed">unemployed</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label>How likely is that you would recommend freeCodeCamp to a friend?</label></th>
+                <td><input type="radio"></td>
+                <td><label>Definitely</label></td>
+                <td><input type="radio"></td>
+                <td><label>Maybe</label></td>
+                <td><input type="radio"></td>
+                <td><label>Not sure</label></td>
+            </tr>
+            <tr>
+                <th><label>What do you like most in FCC:</label></th>
+                <td>
+                    <select>
+                        <option value="select_an_option">Select an option</option>
+                        <option value="os_projetos">Os projetos</option>
+                        <option value="os_programas">Os programas</option>
+                        <option value="seu_desempenho">Seu desempenho</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th><label>Things that should be improved in the future (Check all that apply)</label></th>
+                <td><input type="checkbox"></td>
+                <td><label>Front-end Projects</label></td>
+                <td><input type="checkbox"></td>
+                <td><label>Back-end Projects</label></td>
+                <td><input type="checkbox"></td>
+                <td><label>Data Visualization</label></td>
+            </tr>
+        </table>
+        </div>
+    </form>
+</body>
+</html>
